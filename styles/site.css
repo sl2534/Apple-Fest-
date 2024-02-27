@@ -1,0 +1,534 @@
+html{
+    background-color: white;
+}
+
+
+/* Button Content  */
+
+.hidden {
+    display: none;
+}
+
+.over{
+    position: fixed;
+    opacity: 0.97;
+    background-color:rgb(76, 74, 74);
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+}
+
+.modal{
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 300px;
+    border: 1px solid;
+    background-color: rgb(249, 224, 224);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+}
+
+.modal1 {
+    margin-top: 3%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgb(178, 2, 2);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+button {
+    color: black;
+    padding: 0px;
+    border: none;
+    background-color: rgb(254, 237, 237);
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.5;
+}
+
+
+.buttons button{
+    box-sizing: border-box;
+    padding: 3px;
+}
+.buttons button:hover {
+    background-color: grey;
+    opacity: 1;
+}
+
+.buttons picture {
+    opacity: 1;
+
+}
+
+.applepic-1to3 button picture img {
+    border-radius: 8px;
+}
+
+.applepic-4to5 button picture img {
+    border-radius: 8px;
+}
+
+.drink1 button picture img {
+    border-radius: 8px;
+}
+
+.drink2 button picture img {
+    border-radius: 8px;
+}
+
+.craft-pic button picture img {
+    border-radius: 8px;
+}
+
+.desr{
+    font-size: 20pt;
+    font-family: sans-serif;
+    color:rgb(168, 20, 20)
+}
+
+
+/* End of Button Content  */
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(254, 237, 237);
+    margin:0px auto;
+    max-width: 1440px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 24px 24px;
+    color: rgb(168, 20, 20);
+    font-size: 20pt;
+    text-decoration: none;
+    float: right;
+    font-family: sans-serif;
+}
+
+a:hover{
+    background-color: rgb(200, 148, 43);
+}
+
+h2{
+    color: rgb(168, 20, 20);
+}
+
+h3{
+    color: rgb(168, 20, 20);
+}
+
+.schedule {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    font-size: 18px;
+    gap: 40px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 8;
+    max-width: 100%;
+    min-width: 60%;
+}
+.apple-eating{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    max-width: 20%;
+    min-width: 20%;
+    background-color: rgb(205, 71, 47);
+    color: white;
+    padding-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    flex-grow: 2;
+
+}
+
+.hour{
+    color: white;
+}
+
+.apple-deco{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.other-vendors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apple-vendors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap: 100px;
+
+}
+
+.apple-vendors li {
+    margin: 10px;
+}
+
+.apple-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.applepic-1to3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.applepic-4to5{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.vendor-intro {
+    font-size: 20px;
+    max-width: 80%;
+    min-width: 60%;
+}
+
+.drinks li{
+    margin: 10px;
+    max-width: 80%;
+}
+
+.drinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap: 100px;
+}
+
+
+.drink-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.drink1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.other-vendors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap: 100px;
+}
+
+.food-first {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.other-vendors li {
+    margin: 10px;
+}
+
+
+header {
+    flex-grow: 2;
+}
+
+.craft{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.craft1{
+    display: flex;
+    flex-direction: row;
+}
+
+.craft2{
+    display: flex;
+    flex-direction: row;
+}
+
+.craft li {
+    margin: 15px;
+}
+
+.craft-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+
+.map-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.routes li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+
+.car p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.map-pic img{
+    display: block;
+    max-width: 800px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+}
+
+@media (max-width:1200px) {
+
+    .apple-deco{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .apple-art {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .apple-pic {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .applepic-1to3 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .applepic-4to5{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+    .other-vendors {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .food-first {
+        display: flex;
+        flex-direction: row;
+        gap: 75px;
+        justify-content: center;
+    }
+
+    .food-last {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .craft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .craft1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .craft2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .craft3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .craft-pic{
+        display: block;
+    }
+
+    .craftp{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+    }
+
+
+}
+
+@media (max-width:900px) {
+
+    .schedule {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .sidebar {
+        max-width: 98%;
+        min-width: 98%
+    }
+
+
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(185, 20, 20);
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    a:hover{
+        background-color: rgb(200, 148, 43);
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #hamburger {
+        margin-right: 6%;
+        margin-top: 15px;
+    }
+
+}
+
+
+@media (max-width:700px) {
+
+    .drink-pic {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .drink1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .drink2{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
